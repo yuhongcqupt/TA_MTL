@@ -18,7 +18,7 @@ from torch.nn import init
 import torch.nn as nn  
 import torch.optim as optim
 import tool as tl
-from flmodel import FLmodel,Loss,obj_func
+from model import FLmodel,Loss,obj_func
 import svm
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0,1,2,3'
