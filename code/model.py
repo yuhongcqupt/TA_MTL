@@ -184,6 +184,11 @@ class FLmodel(nn.Module):
 # 分类
     def forward(self,x):
         CC=torch.tensor([[1,0,0],[0.1,0.9,0],[0.1,0.1,0.8]]).to(device)
+        # CC=torch.tensor([[1,0,0],[0.1,0.9,0],[0,0.1,0.9]]).to(device)
+        # CC=torch.tensor([[1,0,0],[0.2,0.8,0],[0,0.2,0.8]]).to(device)
+        # CC=torch.tensor([[1,0,0],[0.2,0.8,0],[0.1,0.1,0.8]]).to(device)
+        # CC=torch.tensor([[1,0,0],[0.1,0.9,0],[0.03,0.07,0.8]]).to(device)
+        # CC=torch.tensor([[1,0,0],[0.2,0.8,0],[0.05,0.15,0.8]]).to(device)
         y=torch.zeros((x.shape[0],self.t,self.c),dtype=torch.float64)
         for i in range(len(y)):
             yy=torch.zeros((self.c,self.t),dtype=torch.float64)
