@@ -17,7 +17,8 @@ Chongqing University of Posts and Telecommunications
 The repositories include two folders. 
 
 1. The folder  “code” provides the source codes of our TA_MTL model, the reproduced comparison model and tools needed to run these models. You will need to modify the internal code to achieve specific application effects.
-1. The folder  “src” provides ADNI1:Complete 1Yr 3T dataset after processing, The original data could not be provided because of the requirements of the data use agreement. Our processing included image processing and brain region segmentation using FreeSurfer(7.3.0), data complementation and normalization.
+2. The folder  “src” provides ADNI1:Complete 1Yr 3T dataset after processing, The original data could not be provided because of the requirements of the data use agreement. Our processing included image processing and brain region segmentation using FreeSurfer(7.3.0), data complementation and normalization.
+3. The corresponding paper has been submitted to IEEE Journal of Biomedical and Health Informatics. The complete code will be released after the paper is accepted. 
 
 # Experimental environment:
 
